@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+        body {
+            color:rgb(153, 116, 153);
+            font-family: 'ubuntu condensed', sans-serif; /*will need to add additonal fonts as most computers probably won't have this font. Unless the import function adds the font to every computer?*/
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            height:80px;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            margin:0;
+            padding:0;
+        }
+
+        .logo_div {
+            width:250px;
+            height:80px;
+        }
+
+        .navigation_buttons_div {
+            width:500px;
+            height:80px;
+            /*background-color: red;*/
+        }
+
+        .navigation_buttons /*This is a <ul> */{
+            list-style-type: none;
+            text-align:center;
+            padding:0px;
+            margin-top:28px;
+        }
+
+        .navigation_buttons li {
+            font-size:16x;
+            display:inline-block;
+            margin:0px 25px;
+            padding:0px;
+        }
+
+        .navigation_buttons li a {
+            transition:all 0.3s ease 0s;
+            color:rgb(153, 116, 153);
+            text-decoration: none;
+        }
+
+        .navigation_buttons li a:hover {
+            text-decoration: underline;
+            color:#FEDDD7;
+        }
+
+        button {
+            font-family: 'Ubuntu Condensed', sans-serif;
+            font-size:15px;
+            color:white;
+            text-decoration:none;
+            border-radius:13px;
+            transition:all 0.3s ease 0s;
+            background-color: #DFCFD9;
+            border:none;
+            padding:5px 14px;
+        }
+
+        button:hover {
+            background-color:#FEDDD7;
+            cursor:pointer;
+        }
+
+        .social_icons_div {
+            width:250px;
+            height:80px;
+            text-align:center;
+            /*background-color: blue;*/
+        }
+
+        .social_icons /*This is a <ul> */ {
+            list-style-type: none;
+            padding:0px;
+            margin:0;
+        }
+
+        .social_icons li {
+            padding:0px;
+            display:inline-block;
+            margin:0px 12px;
+            vertical-align: middle;
+            color:rgb(153, 116, 153);
+            margin-top:28px;
+        }
+
+        .social_icons li i {
+            transition: all 0.3s ease 0s;
+        }
+
+        .social_icons li i:hover {
+            color:#FEDDD7;
+        }
+
+        footer {
+            background-image:linear-gradient(to top right, #DFCFD9, #FEDDD7);
+            height:120px;
+            padding:0;
+        }
+
+        .terms {
+            color:white;
+            text-align:center;
+            position:relative;
+            top:50px;
+        }
+
+        hr {
+            color:rgb(153, 116, 153);
+            width:900px;
+        }
